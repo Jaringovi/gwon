@@ -4,12 +4,14 @@ import java.util.*;
 public class BOJ12100 {
     static int answer = 0;
 
+    // 모든 경우의수 = 4 ^ 5 * 20 * 20 = 1000 * 400 = 400,000
     private static void dfs(int depth, int N, int[][] board) {
         // System.out.println("depth = " + depth);
         // for (int r = 0; r < N; r++) {
         //     System.out.println(Arrays.toString(board[r]));
         // }
         
+        // 탈출 조건 (기저 조건)
         if (depth == 5) {
             for (int r = 0; r < N; r++) {
                 for (int c = 0; c < N; c++) {
