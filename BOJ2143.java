@@ -1,4 +1,5 @@
 // 31120kb 768ms
+// https://www.acmicpc.net/board/view/111172를 통해 정답 범위를 깨달음
 
 import java.io.*;
 import java.util.*;
